@@ -64,7 +64,7 @@ header {
 .line {
     width: 150px;
     height: 4px;
-    background: #fc036b;
+    background: transparent;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -134,6 +134,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    text-align: center;
     align-items: center;
 }
 .explore-content {
@@ -274,7 +275,6 @@ li:hover {
     color: #fc036b;
     cursor: zoom-out;
 }
-
 
 
 
